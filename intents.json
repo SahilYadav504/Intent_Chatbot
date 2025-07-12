@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "What's up"],
+      "responses": ["Hi there! 👋", "Hello! How can I assist you today?", "Hey! What’s on your mind?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Catch you later"],
+      "responses": ["See you soon! 😊", "Goodbye! 👋", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "I appreciate it"],
+      "responses": ["You're welcome! 👍", "No problem at all!", "Glad I could help!"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it", "Tell me the time", "Current time"],
+      "responses": ["I don’t have a watch, but it’s always a good time to learn ⏰", "You can check your device clock! ⌚"]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What day is it", "Tell me the date", "Today's date"],
+      "responses": ["It’s a great day to code! 📅", "Check your system calendar—it’s probably awesome!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather", "Is it sunny", "Will it rain today"],
+      "responses": ["I can’t see the sky, but I hope it's sunny like your mindset ☀️", "Check a weather app—but I’m sending you sunshine!"]
+    },
+    {
+      "tag": "feeling_check",
+      "patterns": ["How are you", "Are you okay", "What's up"],
+      "responses": ["I’m doing great—ready to help! 😄", "All systems running smoothly. What can I do for you?"]
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke", "Make me laugh", "Funny please"],
+      "responses": ["Why did the Python file feel lonely? Because it had no class! 😂", "I told my chatbot a joke… it replied in binary. 😆"]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["Motivate me", "Give me energy", "Encourage me"],
+      "responses": ["You’ve got this, Sahil! Each keystroke is progress 🚀", "Success starts with showing up—and you're here! 💪"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help me", "I need assistance", "Can you guide me"],
+      "responses": ["Absolutely! What do you need help with?", "Let’s solve it together—just tell me what’s up 🛠️"]
+    },
+    {
+      "tag": "facts",
+      "patterns": ["Tell me a fun fact", "Say something interesting", "Give me trivia"],
+      "responses": ["Sea otters hold hands while sleeping so they don’t drift apart 🦦", "Bananas are berries, but strawberries aren’t 🍌"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name", "Who are you"],
+      "responses": ["I'm SahilBot, your Python-powered buddy 🤖", "Call me SahilBot — trained with love and machine learning!"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who made you", "Who built you", "Who is your developer"],
+      "responses": ["I was created by Sahil — a coder on a mission 👨‍💻", "Crafted by the one and only Sahil!"]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["You're smart", "You're cool", "Nice bot"],
+      "responses": ["Thanks, Sahil! You’re awesome too 😎", "Appreciate it! You're boosting my virtual ego! 😄"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["I didn’t quite get that. Could you say it a different way?", "Hmm... that doesn’t compute. Try rephrasing? 🤔"]
+    }
+  ]
+}
